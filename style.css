@@ -97,16 +97,16 @@ body {
 }
 
 .card {
-  width: 500px;
+  width: 40%;
   padding: 20px;
   border-radius: 4px;
   border-top: 6px solid #06A591;
   transition: 0.7s ease;
+  box-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card h2 {
@@ -168,3 +168,35 @@ body {
   color: #06A591;
 }
 
+@media screen and (max-width: 600px) {
+  .bloc-card {
+    flex-direction: column;
+  }
+  .footer {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .plan img {
+    width: 100%;
+  }
+
+  .footer-desc{
+    margin:30px 0;
+  }
+
+  .wrapper-footer {
+    height: 300px;
+  }
+  .description {
+    margin: 40px 10px 30px 10px;
+  }
+
+  .container {
+    margin-left: 10px !important;
+  }
+}
