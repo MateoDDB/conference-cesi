@@ -97,7 +97,7 @@ body {
 
 .info p {
   text-align: left !important;
-  margin: 40px 0 !important;
+  margin: 40px 0;
 }
 
 .card {
@@ -238,5 +238,17 @@ body {
   .desc-info {
     margin-top: 20px;
     width: 95%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .card {
+    width: 80%;
+  }
+  .info-sup, .themes {
+    margin: 36.5px 0 !important;
+  }
+  .horaire, .horaire-light {
+    font-size: 12px;
   }
 }
