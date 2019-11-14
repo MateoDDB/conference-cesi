@@ -62,6 +62,10 @@ body {
   font-size: 24px !important;
 }
 
+.btn-xl:hover {
+  color: #06A591;
+}
+
 .btn:hover {
   background: none;
 }
@@ -117,6 +121,19 @@ body {
 .bloc-card {
   display: flex;
   justify-content: space-between;
+}
+
+.horaire {
+  font-weight: bold;
+}
+
+.themes {
+  font-weight: bold;
+  color: #06A591;
+}
+
+.info-sup {
+  opacity: .5;
 }
 
 .description {
